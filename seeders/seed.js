@@ -1,7 +1,14 @@
 let mongoose = require("mongoose");
 let db = require("../models");
 
-mongoose.connect("mongodb://localhost/workout", {
+//to check the input in the local-host (terminal)
+// mongoose.connect("mongodb://localhost/workout", {
+//   useNewUrlParser: true,
+//   useFindAndModify: false
+// });
+
+//connected to heroku mlab mongodb
+  mongoose.connect("mongodb://<dbuser>:<dbpassword>@ds159926.mlab.com:59926/heroku_bj3ggxcs", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
