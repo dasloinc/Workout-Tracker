@@ -1,7 +1,7 @@
 # Fitness Tracker
 
 ## User Story
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+* As a user, I want to be able to view create and track my daily workouts. I want to be able to log different types of exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
 ## Description
 An application that allows the user track their workouts by creating new workouts, and adding to exisiting workouts. Also it gives the user an overview of the work out statistics.
@@ -27,4 +27,4 @@ https://github.com/dasloinc/Workout-Tracker
 https://nosql-trackmyworkout.herokuapp.com/
 
 ### Using The Application
-To start using the application click [HERE] (https://nosql-trackmyworkout.herokuapp.com/)
+To start using the application click [HERE](https://nosql-trackmyworkout.herokuapp.com/)
